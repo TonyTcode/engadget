@@ -1,0 +1,61 @@
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    
+    #menu {
+        flex-direction: column;
+        align-items: center;
+    } 
+
+    #ad{
+        display: none;
+    }
+
+    .items{
+        flex-direction: row;
+
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1280px) {
+
+    #ad{
+        display: flex;
+    }
+}
+
+
+
+
+
+
+
+#menu{
+    list-style: none;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 10pt;
+}
+
+#menu li{
+    margin: 10px;
+
+}
+
+#items{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#items img{
+    width: 100px;
+    height: 100px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
