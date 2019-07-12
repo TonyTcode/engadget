@@ -1,0 +1,56 @@
+
+@media (min-width: 100px) and (max-width: 480px) {
+
+
+    #ad{
+        display: none
+
+    }
+
+    #items{
+        display: grid;
+        grid-template-rows: inherit
+    }
+    .item p{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}
+
+@media (min-width: 481px) and (max-width: 2000px) {
+
+    #ad{
+        display: grid;
+        margin: 10px;
+    }
+
+    #items{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: lightskyblue
+
+    }
+    .item p{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}
+
+.item{
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    
+}
+
+#items img{
+    width: 150px;
+    height: 150px;
+}
+
+body{
+    background-color: lightgray;
+}
+
